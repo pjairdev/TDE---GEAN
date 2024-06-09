@@ -172,9 +172,9 @@ ul li a {
 #info {
     font-size: small;
     margin: 0px;
-    border-left: 10px solid #2196F3;
-}
-
+    border-left: 10px solid transparent; /* Define a borda com a cor transparente */
+    border-image: linear-gradient(to right, #FF5733, #2196F3) 10 stretch; /* Aplica o degradê na borda */
+  }
 #titulo {
     position: absolute;
     top: 20%;
